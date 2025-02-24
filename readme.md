@@ -2,7 +2,7 @@
 
 ## About
 
-Just a template with all I need to check my .js and .ts files with TypeScript and ESLint (and format other files with Prettier).
+Just a template with everything I need to validate my .ts files with TypeScript and ESLint (and format other files with Prettier).
 
 ## Quick Start
 
@@ -72,4 +72,6 @@ Just a template with all I need to check my .js and .ts files with TypeScript an
 
 ## More info
 
-ESLint has this cool little command to setup everything if we don't know what ESLint-related packages we need to install: `npm init @eslint/config@latest`. Now it's not necessary to use it, because we have everything in `package.json` and the `npm i` command is all we need.
+ESLint has this cool little command to configure everything if we don't know which ESLint-related packages we need to install:  
+`npm init @eslint/config@latest`  
+Now it's not necessary to use it because we have everything in package.json and the npm i command is all we need.
