@@ -8,8 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts",
-    "type-check": "tsc --noEmit",
-    "check": "concurrently \"npm run type-check\" \"npm run lint\""
+    "ts": "tsc --noEmit",
+    "check": "npm run ts && npm run lint"
   },
   "devDependencies": {
     "eslint": "^9.21.0",
