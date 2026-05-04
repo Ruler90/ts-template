@@ -1,5 +1,6 @@
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
+import prettier from 'eslint-config-prettier';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -8,13 +9,11 @@ export default [
     ...tseslint.configs.recommended,
     {
         rules: {
-            indent: ['error', 4],
-            quotes: ['error', 'single'],
-            semi: ['error', 'always'],
             'no-console': 'warn',
             'no-var': 'error',
             'prefer-const': 'error',
             'no-multiple-empty-lines': ['error', { max: 1, maxEOF: 1 }],
         },
     },
+    prettier,
 ];

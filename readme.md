@@ -19,7 +19,7 @@ Just a template with everything I need to validate my .ts files with TypeScript 
 
 ## My Setup
 
--   Node 22.12.0
+-   Node 22.15.0
 -   VS Code with ESLint and Prettier extensions installed.
 -   Formatting/linting options in `settings.json` in VS Code:
 
